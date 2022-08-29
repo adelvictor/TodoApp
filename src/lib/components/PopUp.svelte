@@ -58,6 +58,20 @@
         padding: 3px 3px;
     }
 
+    @media (max-width: 580px){
+        div{
+            left: 15vw;
+            padding: 20px 30px;
+        }
+    }
+
+    @media (max-width: 350px){
+        div{
+            left: 5vw;
+            padding: 20px 30px;
+        }
+    }
+
 </style>
 
 {#if showPopUp}
